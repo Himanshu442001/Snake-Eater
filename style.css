@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background: rgb(255, 166, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scoreBox{
+    position: absolute;
+    top:9px;
+    font-family: 'Times New Roman', Times, serif;
+    right: 200px;
+    font-size: 40px;
+    font-weight: bold;
+}
+#Board{
+    background: linear-gradient(green,yellow);
+    width: 90vmin;
+    height: 92vmin;
+    border: 3px solid black;
+    border-radius: 30px;
+    display: grid;
+    grid-template-rows:repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.head{
+    background:linear-gradient(red,orange);
+    border: 3px solid black;
+    border-radius: 20px;
+    transform: scale(1.2);
+}
+.tail{
+    background-color: purple;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.food{
+    background-color: cyan;
+    border: 3px solid black;
+    border-radius: 16px;
+    
+}
+  
